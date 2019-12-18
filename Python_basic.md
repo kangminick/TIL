@@ -34,18 +34,18 @@ print(d, e, type(d), type(e))
 
 ```python
 array = [1,2,3, "four", "five",  "six", True]
-print(array)
-print(array[0:3])
-print(array[4:])
-print(array[-1])
+print(array) #[1, 2, 3, 'four', 'five', 'six', True]
+print(array[0:3]) #[1, 2, 3]
+print(array[4:]) #['five', 'six', True]
+print(array[-1]) #True
 
-dust = {'seoul' : 50, 'incheon' : 40}
-print(dust)
-print(dust['seoul'])
+dust = {'seoul' : 50, 'incheon' : 40} 
+print(dust) #{'seoul': 50, 'incheon': 40}
+print(dust['seoul']) # 50
 
 dust_two = dict(seoul=50)
-print(dust_two)
-print(dust_two['seoul'])
+print(dust_two) #{'seoul': 50}
+print(dust_two['seoul']) # 50
 
 
 import random
